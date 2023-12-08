@@ -1,44 +1,44 @@
  .Hair {
     color: #CEB26B;
-    font-size: 70px;
+    font-size: 40px;
     font-family: gabriola;
     top: 65%;
     bottom: 20%;
-    left: 33%;
-    right:75%;
+    left: 65%;
+    right:45%;
     position: absolute;
 
  }
  .Aboutus {
    color: #CEB26B;
-    font-size: 70px;
+    font-size: 40px;
     font-family: gabriola;
     top: 265%;
     bottom: 25%;
-    left: 33%;
+    left: 22%;
     right: 30%;
     position: absolute;
     text-align: auto;
  }
  .Products {
    color: #CEB26B;
-    font-size: 70px;
+    font-size: 40px;
     font-family: gabriola;
     position: absolute;
-    top: 220%;
+    top: 225%;
     bottom: 0%;
-    left: 35%;
+    left: 65%;
     right: 80%;
 
  }
  .Nails {
    color: #CEB26B;
-    font-size: 70px;
+    font-size: 40px;
     font-family: gabriola;
     position: absolute;
     top:100%;
     bottom: 0%;
-    left: 40%;
+    left: 35%;
     right: 55%;
  }
  .Massage {
@@ -53,28 +53,48 @@
     font-family: gabriola;
     position: absolute;
  }
- .WaxingSugaring {
+ .Waxing {
    color: #CEB26B;
-    font-size: 70px;
+    font-size: 40px;
     font-family: gabriola;
     position: absolute;
     top: 140%;
     bottom: 0%;
-    left: 33%;
+    left: 65%;
     right: 45%;
+ }
+ .Sugaring {
+   color: #CEB26F;
+   position: absolute;
+   font-family: gabriola;
+   font-size: 40px;
+   top: 145%;
+   bottom: 0%;
+   left: 65%;
+   right: 25%;
  }
  .Microblading {
    color: #CEB26B;
-    font-size: 70px;
+    font-size: 40px;
     font-family: gabriola;
     position: absolute;
     top: 185%;
     bottom: 0%;
-    left: 7%;
-    right: 60%;
+    left: 0%;
+    right: 55%;
+ }
+ .andEyelashes {
+   position: absolute;
+   color: #CEB26F;
+   font-size: 40px;
+   top: 190%;
+   bottom: 0%;
+   left: 0%;
+   right: 55%;
+   font-family: gabriola;
  }
  .pic1 {
-    width: 30%;
+    width: 60%;
     height: 40%;
     position: absolute;
     left: 49%;
@@ -100,7 +120,7 @@
     border-radius: .40rem;
  }
  .pic2 {
-    width: 30%;
+    width: 60%;
     height: 40%;
     position: absolute;
     left: 0%;
@@ -111,7 +131,7 @@
     border: 10px solid #CEB26B;
  }
 .pic3 {
-    width: 30%;
+    width: 60%;
     height: 40%;
     position: absolute;
     top: 85%;
@@ -122,7 +142,7 @@
     border: 10px solid #CEB26B;
 }
 .pic4 {
-   width: 30%;
+   width: 60%;
    height: 40%;
    position: absolute;
    top: 125%;
@@ -133,7 +153,7 @@
    border: 10px solid #CEB26B;
 }
 .pic5 {
-   width: 30%;
+   width: 60%;
    height: 40%;
    position: absolute;
    top: 170%;
@@ -144,7 +164,7 @@
    border: 10px solid #CEB26B;
 }
 .pic6 {
-   width: 30%;
+   width: 60%;
    height: 40%;
    position: absolute;
    top: 210%;
@@ -155,7 +175,7 @@
    border: 10px solid #CEB26B
 }
 .pic7 {
-   width: 30%;
+   width: 60%;
    height: 40%;
    position: absolute;
    top: 250%;
