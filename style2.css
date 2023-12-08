@@ -120,8 +120,8 @@
     border-radius: .40rem;
  }
  .pic2 {
-    width: 60%;
-    height: 40%;
+    width: 49%;
+    height: 70%;
     position: absolute;
     left: 0%;
     right: 53%;
@@ -131,8 +131,8 @@
     border: 10px solid #CEB26B;
  }
 .pic3 {
-    width: 60%;
-    height: 40%;
+    width: 49%;
+    height: 70%;
     position: absolute;
     top: 85%;
     bottom: 20%;
