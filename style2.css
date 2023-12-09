@@ -52,12 +52,12 @@
     font-family: gabriola;
     position: absolute;
  }
- .WaxingSugaring {
+ .Waxing {
    color: #CEB26B;
     font-size: 40px;
     font-family: gabriola;
     position: absolute;
-    top: 143%;
+    top: 135%;
     bottom: 0%;
     left: 33%;
     right: 45%;
@@ -67,9 +67,9 @@
    position: absolute;
    font-family: gabriola;
    font-size: 40px;
-   top: 145%;
+   top: 140%;
    bottom: 0%;
-   left: 65%;
+   left: 33%;
    right: 25%;
  }
  .Microblading {
@@ -77,9 +77,9 @@
     font-size: 40px;
     font-family: gabriola;
     position: absolute;
-    top: 188%;
+    top: 183%;
     bottom: 0%;
-    left: 25%;
+    left: 37%;
     right: 55%;
  }
  .andEyelashes {
@@ -88,8 +88,8 @@
    font-size: 40px;
    top: 190%;
    bottom: 0%;
-   left: 0%;
-   right: 55%;
+   left: 37%;
+   right: 48%;
    font-family: gabriola;
  }
  .pic1 {
