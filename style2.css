@@ -3,28 +3,19 @@
     font-family: gabriola;
     top: 65%;
     bottom: 20%;
-    left: 65%;
-    right: 45%;
+    left: 32%;
+    right: 48%;
     position: absolute;
-    background-image: linear-gradient(
-      to right,
-      #462523 0,
-      #cb9b51 22%,
-      #f6e27a 45%,
-      #f6f3c0 50%,
-      #f6e27a 55%,
-      #cb9b51 78%,
-      #462523 100%,
-    );
+    color: #CEB26F
  }
  .Aboutus {
    color: #CEB26B;
     font-size: 40px;
     font-family: gabriola;
-    top: 265%;
+    top: 269%;
     bottom: 25%;
-    left: 22%;
-    right: 30%;
+    left: 40%;
+    right: 50%;
     position: absolute;
     text-align: auto;
  }
@@ -33,9 +24,9 @@
     font-size: 40px;
     font-family: gabriola;
     position: absolute;
-    top: 225%;
+    top: 227%;
     bottom: 0%;
-    left: 65%;
+    left: 33%;
     right: 80%;
 
  }
@@ -44,9 +35,9 @@
     font-size: 40px;
     font-family: gabriola;
     position: absolute;
-    top:100%;
+    top: 100%;
     bottom: 0%;
-    left: 35%;
+    left: 44%;
     right: 55%;
  }
  .Massage {
@@ -61,14 +52,14 @@
     font-family: gabriola;
     position: absolute;
  }
- .Waxing {
+ .WaxingSugaring {
    color: #CEB26B;
     font-size: 40px;
     font-family: gabriola;
     position: absolute;
-    top: 140%;
+    top: 143%;
     bottom: 0%;
-    left: 65%;
+    left: 33%;
     right: 45%;
  }
  .Sugaring {
@@ -86,9 +77,9 @@
     font-size: 40px;
     font-family: gabriola;
     position: absolute;
-    top: 185%;
+    top: 188%;
     bottom: 0%;
-    left: 0%;
+    left: 25%;
     right: 55%;
  }
  .andEyelashes {
@@ -102,81 +93,81 @@
    font-family: gabriola;
  }
  .pic1 {
-    width: 40%;
-    height: 50%;
+    width: 30%;
+    height: 40%;
     position: absolute;
     left: 49%;
     right: 0%;
     border: 10px solid #CEB26B;
-    border-radius: 100% 100% 100% 100%;
+    border-radius: 5% 5% 5% 5%;
  }
  *{
     background-color: #0E0C0B;
  }
  .pic2 {
-    width: 40%;
-    height: 50%;
+    width: 30%;
+    height: 40%;
     position: absolute;
     left: 0%;
     right: 53%;
     top: 51%;
     bottom: 60%;
-    border-radius: 100% 100% 100% 100%;
+    border-radius: 5% 5% 5% 5%;
     border: 10px solid #CEB26B;
  }
 .pic3 {
-    width: 40%;
-    height: 50%;
+    width: 30%;
+    height: 40%;
     position: absolute;
     top: 85%;
     bottom: 20%;
     left: 49.6%;
     right: 10%;
-    border-radius: 100% 100% 100% 100%;
+    border-radius: 5% 5% 5% 5%;
     border: 10px solid #CEB26B;
 }
 .pic4 {
-   width: 40%;
-   height: 50%;
+   width: 30%;
+   height: 40%;
    position: absolute;
    top: 125%;
    bottom: 0%;
    left: 0%;
    right: 80%;
-   border-radius: 100% 100% 100% 100%;
+   border-radius: 5% 5% 5% 5%;
    border: 10px solid #CEB26B;
 }
 .pic5 {
-   width: 40%;
-   height: 50%;
+   width: 30%;
+   height: 40%;
    position: absolute;
    top: 170%;
    bottom: -200%;
    left: 50%;
    right: 0%;
-   border-radius: 100% 100% 100% 100%;
+   border-radius: 5% 5% 5% 5%;
    border: 10px solid #CEB26B;
 }
 .pic6 {
-   width: 40%;
-   height: 50%;
+   width: 30%;
+   height: 40%;
    position: absolute;
    top: 210%;
    bottom: -200%;
    left: 0%;
    right: 50%;
-   border-radius: 100% 100% 100% 100%;
+   border-radius: 5% 5% 5% 5%;
    border: 10px solid #CEB26B
 }
 .pic7 {
-   width: 40%;
-   height: 50%;
+   width: 30%;
+   height: 40%;
    position: absolute;
    top: 250%;
    bottom: -250%;
    left: 50%;
    right: 0%;
-   border-radius: 100% 100% 100% 100%;
+   border-radius: 5% 5% 5% 5%;
    border: 10px solid #CEB26F;
 }
 .nowrap {
@@ -209,8 +200,8 @@ p.Hair {
    position: absolute;
    top: 50%;
    bottom: 90%;
-   left: 80%;
-   right: 20%;
+   left: 60%;
+   right: 40%;
    font-size: 100px;
 }
 .Menu {
