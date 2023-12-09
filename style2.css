@@ -1,13 +1,21 @@
- .Hair {
-    color: #CEB26B;
+.Hair {
     font-size: 40px;
     font-family: gabriola;
     top: 65%;
     bottom: 20%;
     left: 65%;
-    right:45%;
+    right: 45%;
     position: absolute;
-
+    background-image: linear-gradient(
+      to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f3c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%,
+    );
  }
  .Aboutus {
    color: #CEB26B;
@@ -94,34 +102,20 @@
    font-family: gabriola;
  }
  .pic1 {
-    width: 50%;
-    height: 30%;
+    width: 40%;
+    height: 50%;
     position: absolute;
     left: 49%;
     right: 0%;
     border: 10px solid #CEB26B;
     border-radius: 100% 100% 100% 100%;
  }
- * {
+ *{
     background-color: #0E0C0B;
  }
- select {
-    width: 120px;
-    height: 50px;
-    position: absolute;
-    top: 60px;
-    bottom: 350px;
-    left: 550px;
-    right: 100px;
-    font-family: gabriola;
-    font-size: 50px;
-    color: #CEB26B;
-    background: linear-gradient(pink 60%, black);
-    border-radius: .40rem;
- }
  .pic2 {
-    width: 49%;
-    height: 70%;
+    width: 40%;
+    height: 50%;
     position: absolute;
     left: 0%;
     right: 53%;
@@ -131,8 +125,8 @@
     border: 10px solid #CEB26B;
  }
 .pic3 {
-    width: 49%;
-    height: 70%;
+    width: 40%;
+    height: 50%;
     position: absolute;
     top: 85%;
     bottom: 20%;
@@ -142,8 +136,8 @@
     border: 10px solid #CEB26B;
 }
 .pic4 {
-   width: 60%;
-   height: 40%;
+   width: 40%;
+   height: 50%;
    position: absolute;
    top: 125%;
    bottom: 0%;
@@ -153,8 +147,8 @@
    border: 10px solid #CEB26B;
 }
 .pic5 {
-   width: 60%;
-   height: 40%;
+   width: 40%;
+   height: 50%;
    position: absolute;
    top: 170%;
    bottom: -200%;
@@ -164,8 +158,8 @@
    border: 10px solid #CEB26B;
 }
 .pic6 {
-   width: 60%;
-   height: 40%;
+   width: 40%;
+   height: 50%;
    position: absolute;
    top: 210%;
    bottom: -200%;
@@ -175,8 +169,8 @@
    border: 10px solid #CEB26B
 }
 .pic7 {
-   width: 60%;
-   height: 40%;
+   width: 40%;
+   height: 50%;
    position: absolute;
    top: 250%;
    bottom: -250%;
@@ -192,7 +186,7 @@
    width: 40%;
    height: 40%;
    position: absolute;
-   top: 5%;
+   top: 3%;
    bottom: 100%;
    left: 5%;
    right: 90%;
@@ -229,23 +223,22 @@ p.Hair {
    right: 95%;
 }
 .pic9 {
-   width: 49%;
-   height: 70%;
+   width: 30%;
+   height: 50%;
    position: absolute;
    border-radius: 100% 100% 100% 100%;
    border: 10px solid #CEB26F;
 }
 h2 {
-   color: #CEB26F;
-   text-align: right;
-   padding: 30px;
-   box-sizing: border-box;
-   border: 8px solid #CEB26F;
-   width: 40%;
+   color: white;
+   border: none;
+   width: 60px;
    position: absolute;
-   right: 0%;
-   left: 55%;
-   top: 70%;
+   right: 80%;
+   left: 18%;
+   top: 3%;
+   font-size: 20px;
+   border-color: white;
 }
 h2.Shawna {
 color: #CEB26F;
@@ -281,25 +274,57 @@ h2.Pam {
    top: 180%;
    bottom: 0%;
 }
-input.email {
+div {
+   color: white;
+   
+}
+.input {
+   background-color: white;
    position: absolute;
    top: 3%;
-   z-index: 1;
-   bottom: 80%;
+   bottom: 89%;
    height: 15px;
+   left: 5%;
+   right: 90%;
+   width: 160px;
 }
-input.password {
+.password {
+   background-color: white;
    position: absolute;
-   top: 6%;
-   bottom: 77%;
+   top: 289%;
+   bottom:0%;
    height: 15px;
-   z-index: 1;
+   width: 160px;
+   right: 100%;
+   left: .5%;
+}
+.email {
+   background-color: white;
+   position: absolute;
+   width: 160px;
+   height: 15px;
+   top: 285%;
+   bottom: 0%;
 }
 button {
+   color: white;
    position: absolute;
-   top: 0%;
-   left: 0%;
-   right: 70%;
-   bottom: 90%;
-   border: none;
+   top: 281%;
 }
+.adjust-me-based-on-size{
+   margin-left: 15%;
+   margin-right: 15%;
+ }
+ @media only screen and (min-width: 800) and (max-width: 1200) {
+   .adjust-me-based-on-size {
+ 
+     margin-left: 10%;
+     margin-right: 10%;
+   }
+ }
+ @media only screen and (max-width: 800px) {
+   .adjust-me-based-on-size {
+     margin-left: 5%;
+     margin-right: 0%;
+   }
+ }
